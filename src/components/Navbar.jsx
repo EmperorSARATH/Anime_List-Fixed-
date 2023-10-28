@@ -4,9 +4,9 @@ import { Box } from '@mui/material';
 
 const Navbar = () => {
   return (
-    <Container sx={{backgroundColor:"coral",display:"flex",}} >
-        <Box sx={{bgcolor:"skyblue",justifyItems:"center",marginLeft:"50%"}}>
-            Anime Movies List
+    <Container sx={{bgcolor:"coral", textAlign:"left"}}>
+        <Box>
+            <h3 style={{marginLeft:"50%"}}>Anime Movies List</h3>
         </Box>
         </Container>
   )

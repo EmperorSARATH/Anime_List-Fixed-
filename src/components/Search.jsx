@@ -6,9 +6,8 @@ const Search = ({setQ,q,filteredPerson}) => {
     // const filtered = filteredPerson.map(person =>  <Card key={person.id} person={person} />); 
  
   return (
-    <Box sx={{marginTop:"20px"}}>
+    <Box sx={{ margin:"20px 20px 20px 20px", border:"1.5px outline"}}>
         <TextField fullWidth label="search.." id="fullWidth" placeholder='search..' value={q} onChange={(e)=>setQ(e.target.value) }/>
-
     </Box>
   )
 }
